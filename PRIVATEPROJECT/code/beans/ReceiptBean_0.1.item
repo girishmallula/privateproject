@@ -45,10 +45,10 @@ public class ReceiptBean {
 	 * setPrice(Exchange exch, @Header("Price") String price, @Header("Country")
 	 * String country)
 	 */
-	public static void setPrice(Exchange exch, @Header("Price") String price,
+	public static void setPrice(Exchange exchangeObj, @Header("Price") String price,
 			@Header("Country") String country) {
-		exch.getIn().setBody(
-				exch.getIn().getBody(String.class) + "\nCountry: " + country
+		exchangeObj.getIn().setBody(
+				exchangeObj.getIn().getBody(String.class) + "\nCountry: " + country
 						+ "\nAmount: " + price, String.class);
 	}
 }
