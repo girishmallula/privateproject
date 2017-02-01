@@ -2,5 +2,5 @@
 <talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_sR73MOfxEeaYC5H2qQGsXQ" confirmationNeeded="false" name="Default">
   <contextParameter xmi:id="_sR73MefxEeaYC5H2qQGsXQ" comment="FileIn" name="destination" prompt="destination?" promptNeeded="false" type="id_String" value=""/>
   <contextParameter xmi:id="_sR73MufxEeaYC5H2qQGsXQ" comment="direct:initAudit,direct:archive,direct:validate,direct:finalAudit" name="routingSlip" prompt="routingSlip?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_sR73M-fxEeaYC5H2qQGsXQ" comment="&quot;http://localhost:8616/&quot;" name="uri" prompt="uri?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_sR73M-fxEeaYC5H2qQGsXQ" comment="&quot;http://localhost:8161/&quot;" name="uri" prompt="uri?" promptNeeded="false" type="id_String" value=""/>
 </talendfile:ContextType>
