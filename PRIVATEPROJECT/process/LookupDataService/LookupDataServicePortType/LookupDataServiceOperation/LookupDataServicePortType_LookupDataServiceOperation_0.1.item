@@ -107,7 +107,7 @@
   <node componentName="tESBProviderRequest" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tESBProviderRequest_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_LxJBoOkGEeajZ7Wc-cdjRw - _813qQOkHEeajZ7Wc-cdjRw - _813qQekHEeajZ7Wc-cdjRw" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_LxJBoOkGEeajZ7Wc-cdjRw - _FVQCoOkOEeajZ7Wc-cdjRw - _FVQCoekOEeajZ7Wc-cdjRw" show="false"/>
     <elementParameter field="CHECK" name="KEEPLISTENING" value="true"/>
     <elementParameter field="TEXT" name="WSDL_LOCATION" value="C:/Users/chand/workspace/.repositories/326863957/master/PRIVATEPROJECT/services/LookupDataService_0.1.wsdl" show="false"/>
     <elementParameter field="TEXT" name="ENDPOINT_URI" value="http://localhost:8090/services/LookupDataService" show="false"/>
