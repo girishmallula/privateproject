@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
-  <Services:ServiceConnection xmi:id="_s0RO4ukHEeajZ7Wc-cdjRw" servicePort="_s0RO4-kHEeajZ7Wc-cdjRw"/>
-  <Services:ServicePort xmi:id="_s0RO4-kHEeajZ7Wc-cdjRw" name="LookupDataServicePortType" id="_s0RO4OkHEeajZ7Wc-cdjRw" serviceOperation="_s0RO5OkHEeajZ7Wc-cdjRw"/>
-  <Services:ServiceOperation xmi:id="_s0RO5OkHEeajZ7Wc-cdjRw" label="LookupDataServiceOperation" name="LookupDataServiceOperation" id="_s0RO4ekHEeajZ7Wc-cdjRw"/>
+  <Services:ServiceConnection xmi:id="_813qQukHEeajZ7Wc-cdjRw" servicePort="_813qQ-kHEeajZ7Wc-cdjRw"/>
+  <Services:ServicePort xmi:id="_813qQ-kHEeajZ7Wc-cdjRw" name="LookupDataServicePortType" id="_813qQOkHEeajZ7Wc-cdjRw" serviceOperation="_813qROkHEeajZ7Wc-cdjRw"/>
+  <Services:ServiceOperation xmi:id="_813qROkHEeajZ7Wc-cdjRw" label="LookupDataServiceOperation" name="LookupDataServiceOperation" id="_813qQekHEeajZ7Wc-cdjRw"/>
 </xmi:XMI>
