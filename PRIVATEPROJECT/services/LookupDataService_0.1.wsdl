@@ -26,18 +26,7 @@
 		</xsd:schema>
 	</wsdl:types>
 
-    <wsdl:types><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.talend.org/service/">
-	<xsd:element name="LookupDataServiceOperationRequest"
-		type="tns:ProductId">
-	</xsd:element>
-	<xsd:element name="LookupDataServiceOperationResponse" type="xsd:string"></xsd:element>
-
-        
-	<xsd:simpleType name="ProductId">
-		<xsd:restriction base="xsd:string"></xsd:restriction>
-	</xsd:simpleType>
-</xsd:schema></wsdl:types>
-    <wsdl:message name="LookupDataServiceOperationRequest">
+	<wsdl:message name="LookupDataServiceOperationRequest">
 		<wsdl:part name="parameters" element="tns:LookupDataServiceOperationRequest"></wsdl:part>
 	</wsdl:message>
 	<wsdl:message name="LookupDataServiceOperationResponse">
