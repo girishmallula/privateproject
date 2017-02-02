@@ -12,7 +12,7 @@
 			<xsd:element name="LookupDataServiceOperationRequest">
 				<xsd:complexType>
 					<xsd:sequence>
-						<xsd:element name="ProductId" type="xsd:string"></xsd:element>
+						<xsd:element name="in" type="xsd:string"></xsd:element>
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
@@ -55,7 +55,7 @@
 
 	<wsdl:service name="LookupDataService">
 		<wsdl:port name="LookupDataServicePort" binding="tns:LookupDataServiceBinding">
-			<soap:address location="http://localhost:8300/services/LookupDataService" />
+			<soap:address location="http://localhost:8090/services/LookupDataService" />
 		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
