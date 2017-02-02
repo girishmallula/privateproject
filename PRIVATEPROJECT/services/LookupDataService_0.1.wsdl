@@ -68,7 +68,7 @@
 
 	<wsdl:service name="LookupDataService">
 		<wsdl:port name="LookupDataServicePort" binding="tns:LookupDataServiceBinding">
-			<soap:address location="http://localhost:8090/services/LookupDataService" />
+			<soap:address location="http://localhost:8300/services/LookupDataService" />
 		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
