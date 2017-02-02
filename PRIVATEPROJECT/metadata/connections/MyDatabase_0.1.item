@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_ynSrgOkJEeajZ7Wc-cdjRw" name="MyDatabase" id="_roXKgOkJEeajZ7Wc-cdjRw" label="MyDatabase" dataPackage="_yp23UOkJEeajZ7Wc-cdjRw _yp4FcOkJEeajZ7Wc-cdjRw _yp4FcekJEeajZ7Wc-cdjRw _yp4FcukJEeajZ7Wc-cdjRw _yp4Fc-kJEeajZ7Wc-cdjRw _yp4FdOkJEeajZ7Wc-cdjRw _yp4FdekJEeajZ7Wc-cdjRw _yp4FdukJEeajZ7Wc-cdjRw _yp4Fd-kJEeajZ7Wc-cdjRw _yp4FeOkJEeajZ7Wc-cdjRw _yp4FeekJEeajZ7Wc-cdjRw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_ynT5oOkJEeajZ7Wc-cdjRw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_yotn0OkJEeajZ7Wc-cdjRw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_yo1joOkJEeajZ7Wc-cdjRw" tag="Status" value=""/>
+    <taggedValue xmi:id="_yo1joekJEeajZ7Wc-cdjRw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_yo1joukJEeajZ7Wc-cdjRw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_yo1jo-kJEeajZ7Wc-cdjRw" tag="Description" value=""/>
+    <taggedValue xmi:id="_yo1jpOkJEeajZ7Wc-cdjRw" tag="Author" value=""/>
+    <taggedValue xmi:id="_yo1jpekJEeajZ7Wc-cdjRw" tag="otherParameter"/>
+    <taggedValue xmi:id="_ypRogOkJEeajZ7Wc-cdjRw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_ypRogekJEeajZ7Wc-cdjRw" tag="DB ProductVersion" value="5.7.17-log"/>
+    <taggedValue xmi:id="_ypRogukJEeajZ7Wc-cdjRw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_ynT5oekJEeajZ7Wc-cdjRw" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yp23UOkJEeajZ7Wc-cdjRw" name="information_schema" dataManager="_ynSrgOkJEeajZ7Wc-cdjRw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yp4FcOkJEeajZ7Wc-cdjRw" name="mydatabase" dataManager="_ynSrgOkJEeajZ7Wc-cdjRw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yp4FcekJEeajZ7Wc-cdjRw" name="mysql" dataManager="_ynSrgOkJEeajZ7Wc-cdjRw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yp4FcukJEeajZ7Wc-cdjRw" name="performance_schema" dataManager="_ynSrgOkJEeajZ7Wc-cdjRw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yp4Fc-kJEeajZ7Wc-cdjRw" name="sakila" dataManager="_ynSrgOkJEeajZ7Wc-cdjRw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yp4FdOkJEeajZ7Wc-cdjRw" name="sys" dataManager="_ynSrgOkJEeajZ7Wc-cdjRw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yp4FdekJEeajZ7Wc-cdjRw" name="talend_administrator" dataManager="_ynSrgOkJEeajZ7Wc-cdjRw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yp4FdukJEeajZ7Wc-cdjRw" name="talend_dq" dataManager="_ynSrgOkJEeajZ7Wc-cdjRw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yp4Fd-kJEeajZ7Wc-cdjRw" name="talend_dsc" dataManager="_ynSrgOkJEeajZ7Wc-cdjRw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yp4FeOkJEeajZ7Wc-cdjRw" name="talend_mdm" dataManager="_ynSrgOkJEeajZ7Wc-cdjRw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yp4FeekJEeajZ7Wc-cdjRw" name="world" dataManager="_ynSrgOkJEeajZ7Wc-cdjRw"/>
+</xmi:XMI>
