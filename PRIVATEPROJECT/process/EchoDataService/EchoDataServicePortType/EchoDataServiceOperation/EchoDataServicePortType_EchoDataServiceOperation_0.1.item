@@ -110,7 +110,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_AnsHYOhKEeaYC5H2qQGsXQ - _ApyZIOhKEeaYC5H2qQGsXQ - _ApzAMOhKEeaYC5H2qQGsXQ" show="false"/>
     <elementParameter field="CHECK" name="KEEPLISTENING" value="true"/>
     <elementParameter field="TEXT" name="WSDL_LOCATION" value="C:/Users/chand/workspace/.repositories/326863957/master/PRIVATEPROJECT/services/EchoDataService_0.1.wsdl" show="false"/>
-    <elementParameter field="TEXT" name="ENDPOINT_URI" value="http://localhost:8090/services/EchoDataService" show="false"/>
+    <elementParameter field="TEXT" name="ENDPOINT_URI" value="http://localhost:8300/services/EchoDataService" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NS" value="http://www.talend.org/service/" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAME" value="EchoDataService" show="false"/>
     <elementParameter field="TEXT" name="PORT_NS" value="http://www.talend.org/service/" show="false"/>
