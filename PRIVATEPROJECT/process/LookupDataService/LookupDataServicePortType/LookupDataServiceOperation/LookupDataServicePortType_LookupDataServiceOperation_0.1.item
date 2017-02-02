@@ -110,7 +110,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_LxJBoOkGEeajZ7Wc-cdjRw - _FVQCoOkOEeajZ7Wc-cdjRw - _FVQCoekOEeajZ7Wc-cdjRw" show="false"/>
     <elementParameter field="CHECK" name="KEEPLISTENING" value="true"/>
     <elementParameter field="TEXT" name="WSDL_LOCATION" value="C:/Users/chand/workspace/.repositories/326863957/master/PRIVATEPROJECT/services/LookupDataService_0.1.wsdl" show="false"/>
-    <elementParameter field="TEXT" name="ENDPOINT_URI" value="http://localhost:8090/services/LookupDataService" show="false"/>
+    <elementParameter field="TEXT" name="ENDPOINT_URI" value="http://localhost:8310/services/LookupDataService" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NS" value="http://www.talend.org/service/" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAME" value="LookupDataService" show="false"/>
     <elementParameter field="TEXT" name="PORT_NS" value="http://www.talend.org/service/" show="false"/>
