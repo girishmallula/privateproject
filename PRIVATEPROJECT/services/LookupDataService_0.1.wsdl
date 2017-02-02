@@ -12,18 +12,23 @@
 			<xsd:element name="LookupDataServiceOperationRequest">
 				<xsd:complexType>
 					<xsd:sequence>
-						<xsd:element name="ProductId" type="xsd:string"></xsd:element>
+						<xsd:element name="ProductId"
+							type="xsd:string">
+						</xsd:element>
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
 			<xsd:element name="LookupDataServiceOperationResponse">
 				<xsd:complexType>
 					<xsd:sequence>
-						<xsd:element name="out" type="xsd:string"></xsd:element>
+						<xsd:element name="out"
+							type="tns:ProductType">
+						</xsd:element>
+
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
-		
+
 			<xsd:complexType name="ProductType">
 				<xsd:sequence>
 					<xsd:element name="Name" type="xsd:string"></xsd:element>
