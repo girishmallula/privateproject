@@ -134,14 +134,6 @@
       <column defaultValue="" key="false" length="0" name="payload" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendXMLMap:XmlMapData">
-      <inputTrees name="row1" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
-        <nodes name="payload" expression="" type="id_Document" xpath="row1/payload">
-          <children name="tns:LookupDataServiceOperationRequest" type="id_String" xpath="row1.payload:/tns:LookupDataServiceOperationRequest" main="true">
-            <children name="tns" type="id_String" xpath="row1.payload:/tns:LookupDataServiceOperationRequest/xmlns:tns" nodeType="NAME_SPACE" defaultValue="http://www.talend.org/service/"/>
-            <children name="in" type="id_String" xpath="row1.payload:/tns:LookupDataServiceOperationRequest/in" loop="true"/>
-          </children>
-        </nodes>
-      </inputTrees>
       <inputTrees name="row2" lookup="true" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
         <nodes name="Name" type="id_String" xpath="row2/Name"/>
         <nodes name="Description" type="id_String" xpath="row2/Description"/>
