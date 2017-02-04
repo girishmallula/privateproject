@@ -208,7 +208,7 @@
         <nodes name="description" type="id_String" outgoingConnections="//@node.3/@nodeData/@connections.2" xpath="row1/description"/>
         <nodes name="price" type="id_String" outgoingConnections="//@node.3/@nodeData/@connections.3" xpath="row1/price"/>
       </inputTrees>
-      <outputTrees activateCondensedTool="true" name="product" allInOne="true">
+      <outputTrees name="product" allInOne="true">
         <nodes name="body" expression="" type="id_Document" xpath="product/body">
           <children xsi:type="TalendXMLMap:OutputTreeNode" name="products" expression="" type="id_String" xpath="product.body:/products" main="true">
             <children xsi:type="TalendXMLMap:OutputTreeNode" name="product" expression="" type="id_String" xpath="product.body:/products/product" loop="true" main="true">
